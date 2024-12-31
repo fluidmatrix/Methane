@@ -3,6 +3,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 // Initialize the scene
 const scene = new THREE.Scene();
+//Instantiating a group to hold our meshes
 const group = new THREE.Group();
 
 // Initialize the texture loader and textures
